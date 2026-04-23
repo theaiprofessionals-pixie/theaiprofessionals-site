@@ -5,81 +5,121 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About | The AI Professionals</title>
   <meta name="description" content="About The AI Professionals" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="index.html">The AI Professionals</a>
-      <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="about.html">About</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="page-hero">
-      <div class="container narrow">
-        <p class="eyebrow">About</p>
-        <h1>About The AI Professionals</h1>
-        <p class="lead">
-          A practical initiative advancing responsible AI through education, awareness,
-          and impact-driven projects.
-        </p>
+  <div class="page-shell">
+    
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">
+          <span class="brand-mark"></span>
+          <span>The AI Professionals</span>
+        </a>
+        <nav class="nav">
+          <a href="index.html" >Home</a>
+          <a href="about.html" class="active">About</a>
+          <a href="projects.html" >Projects</a>
+          <a href="skeptia.html" >Skeptia</a>
+        </nav>
       </div>
-    </section>
+    </header>
+    
+    <main>
 
-    <section class="section">
-      <div class="container narrow">
-        <p>
-          The AI Professionals is an initiative focused on advancing responsible AI through practical,
-          impact-driven work.
-        </p>
-        <p>
-          We believe that as AI becomes more integrated into everyday life, the ability to understand
-          its risks, limitations, and responsible uses is essential.
-        </p>
-        <p>
-          Our approach is simple: translate AI complexity into real-world understanding, focus on
-          practical awareness and mitigation, and build initiatives that create meaningful impact.
-        </p>
-      </div>
-    </section>
+      <section class="page-hero">
+        <div class="container narrow">
+          <div class="tag-row">
+            <span class="tag">About</span>
+            <span class="tag">Umbrella initiative</span>
+          </div>
+          <h1>About The AI Professionals</h1>
+          <p class="lead">
+            A platform for practical, impact-driven work at the intersection of AI safety,
+            responsible use, and public understanding.
+          </p>
+        </div>
+      </section>
 
-    <section class="section alt">
-      <div class="container">
-        <div class="three-up">
-          <article class="card">
-            <h2>What we do</h2>
+      <section class="section">
+        <div class="container section-grid">
+          <div>
+            <p class="section-kicker">What this is</p>
+            <h2>An umbrella initiative built to grow into multiple responsible AI projects.</h2>
+          </div>
+          <div>
             <p>
-              We design practical educational initiatives that help people engage with AI more safely,
-              critically, and responsibly.
+              The AI Professionals is designed as a broad platform rather than a single-purpose website. It exists to support work in AI safety, AI security, responsible use, and practical education as these areas continue to evolve.
+            </p>
+            <p>
+              The intention is to create initiatives that are grounded, understandable, and useful—translating complex AI topics into work that helps people engage with these systems more thoughtfully.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container cards-grid three">
+          <article class="card">
+            <p class="card-kicker">Approach</p>
+            <h3>Practical first</h3>
+            <p>
+              The focus is not abstract theory alone, but real-world strategies, usable frameworks, and educational formats that people can apply.
             </p>
           </article>
           <article class="card">
-            <h2>Why we exist</h2>
+            <p class="card-kicker">Viewpoint</p>
+            <h3>Human judgment matters</h3>
             <p>
-              AI adoption is accelerating, but practical awareness of risks and limitations often remains limited.
+              AI can support analysis and decision-making, but human judgment, accountability, and critical thought remain indispensable.
             </p>
           </article>
           <article class="card">
-            <h2>Where we begin</h2>
+            <p class="card-kicker">Structure</p>
+            <h3>Project-based growth</h3>
             <p>
-              Our first flagship project focuses on youth and aims to equip the next generation to navigate AI responsibly.
+              The site is designed to host multiple initiatives over time. The first flagship project is <strong>Skeptia: Youth &amp; AI</strong>.
             </p>
           </article>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <p><strong>The AI Professionals</strong></p>
-      <p>Built by AI professionals. Focused on real-world impact.</p>
-    </div>
-  </footer>
+      <section class="section">
+        <div class="container split-feature">
+          <div>
+            <p class="section-kicker">Why now</p>
+            <h2>AI is becoming normal long before healthy use habits are.</h2>
+          </div>
+          <div>
+            <p>
+              AI tools are increasingly embedded in learning, communication, creativity, and work. As adoption grows, the need for stronger public understanding grows with it.
+            </p>
+            <p>
+              The AI Professionals exists to help shape that understanding through thoughtful projects that preserve agency, judgment, and meaningful human participation.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p><strong>The AI Professionals</strong></p>
+          <p>Responsible AI, practical education, real-world impact.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="skeptia.html">Skeptia</a>
+        </div>
+      </div>
+    </footer>
+    
+  </div>
 </body>
 </html>
