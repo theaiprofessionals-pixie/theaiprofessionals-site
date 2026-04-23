@@ -5,66 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects | The AI Professionals</title>
   <meta name="description" content="Projects by The AI Professionals" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="index.html">The AI Professionals</a>
-      <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="about.html">About</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="page-hero">
-      <div class="container narrow">
-        <p class="eyebrow">Projects</p>
-        <h1>Our Projects</h1>
-        <p class="lead">
-          We build practical initiatives that help translate responsible AI principles into everyday impact.
-        </p>
+  <div class="page-shell">
+    
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">
+          <span class="brand-mark"></span>
+          <span>The AI Professionals</span>
+        </a>
+        <nav class="nav">
+          <a href="index.html" >Home</a>
+          <a href="about.html" >About</a>
+          <a href="projects.html" class="active">Projects</a>
+          <a href="skeptia.html" >Skeptia</a>
+        </nav>
       </div>
-    </section>
+    </header>
+    
+    <main>
 
-    <section class="section">
-      <div class="container narrow">
-        <article class="project-block">
-          <p class="eyebrow">Flagship initiative</p>
-          <h2>SafeAI Youth Initiative</h2>
-          <p>
-            A youth-focused initiative designed to build awareness of AI-related risks and provide
-            practical strategies for responsible use.
-          </p>
-          <div class="card">
-            <h3>Workshops: Practical AI Safety &amp; Risk Awareness</h3>
-            <p>Participants explore real-world AI challenges and build habits for safer, more responsible use.</p>
-            <ul>
-              <li>Misinformation and hallucinations</li>
-              <li>Bias in AI systems</li>
-              <li>Overreliance on AI tools</li>
-              <li>Scenario-based exercises</li>
-              <li>Verification techniques</li>
-              <li>Safer prompting practices</li>
-              <li>Responsible decision-making</li>
-            </ul>
+      <section class="page-hero">
+        <div class="container narrow">
+          <div class="tag-row">
+            <span class="tag">Projects</span>
+            <span class="tag">Growing portfolio</span>
           </div>
-          <p>
-            Our goal is to empower youth not just to use AI, but to use it critically, safely, and responsibly.
+          <h1>Projects under The AI Professionals</h1>
+          <p class="lead">
+            A growing set of initiatives designed to translate AI safety, responsible use, and critical inquiry into practical work.
           </p>
-        </article>
-      </div>
-    </section>
-  </main>
+        </div>
+      </section>
 
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <p><strong>The AI Professionals</strong></p>
-      <p>Built by AI professionals. Focused on real-world impact.</p>
-    </div>
-  </footer>
+      <section class="section">
+        <div class="container cards-grid single">
+          <article class="card">
+            <div class="project-topline">
+              <span class="pill">Flagship project</span>
+              <span class="muted-label">Current focus</span>
+            </div>
+            <h2>Skeptia: Youth &amp; AI</h2>
+            <p>
+              A youth-focused initiative exploring how to use AI in ways that strengthen judgment,
+              preserve critical thinking, and build practical risk awareness.
+            </p>
+            <p>
+              Skeptia is based on a simple idea: young people should be able to work with AI without outsourcing their thinking to it. The goal is not fear or rejection, but thoughtful, grounded use.
+            </p>
+
+            <div class="matrix-grid">
+              <div>
+                <ul class="feature-list">
+                  <li>Workshops built around real-world scenarios</li>
+                  <li>Risk awareness around overreliance, misinformation, and weak verification</li>
+                  <li>Practical habits that preserve agency, curiosity, and independent judgment</li>
+                </ul>
+              </div>
+              <div class="signal-list">
+                <div class="signal-item">
+                  <strong>Core lens</strong>
+                  <span>Symbiosis with AI, not passive dependence</span>
+                </div>
+                <div class="signal-item">
+                  <strong>Audience</strong>
+                  <span>Youth, educators, and future workshop partners</span>
+                </div>
+                <div class="signal-item">
+                  <strong>Format</strong>
+                  <span>Public resources, workshops, and applied frameworks</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="button-row">
+              <a class="button primary" href="skeptia.html">Open project page</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p><strong>The AI Professionals</strong></p>
+          <p>Responsible AI, practical education, real-world impact.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="skeptia.html">Skeptia</a>
+        </div>
+      </div>
+    </footer>
+    
+  </div>
 </body>
 </html>
