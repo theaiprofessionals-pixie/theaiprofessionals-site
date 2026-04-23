@@ -69,6 +69,10 @@ img { max-width: 100%; }
   position: relative;
   min-height: 100vh;
   overflow: hidden;
+
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .22s ease, transform .22s ease;
 }
 
 .page-shell::before {
@@ -93,6 +97,16 @@ img { max-width: 100%; }
   background: radial-gradient(circle, rgba(138,124,255,0.10), transparent 65%);
   filter: blur(16px);
   pointer-events: none;
+}
+
+.page-shell.page-loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-shell.page-exit {
+  opacity: 0;
+  transform: translateY(6px);
 }
 
 .container {
@@ -660,4 +674,3 @@ p { margin-top: 0; }
     width: 96%;
   }
 }
-
